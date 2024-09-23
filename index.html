@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esercizio #2 JavaScript</title>
+</head>
+<body>
+    <script type="text/javascript">
+        // 1. prendere input utente (let risposta = ...)
+        // 2. Controllare se è != null
+        // 3. Se è diverso da null ->  usa il metodo .toLowerCase sull'input inserito dall'utente
+        // 4. Se la risposta è esatta incrementa di una unità un contatore intero precedentemente dichiarato come variabile globale
+        // 5. ripeti per tutte le domande del quiz
+        // 6. mostra il risultato finale tramite alert
+        
+        score = 0
+        let risposta_1 = prompt("Qual'è la capitale dell'Italia? ")
+        if (risposta_1.toLowerCase() === "roma") {
+            score = score + 1
+        }
+        else {
+            score = score + 0
+        }
+
+    </script>
+</body>
+</html>
