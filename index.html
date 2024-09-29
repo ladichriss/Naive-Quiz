@@ -15,8 +15,16 @@
         // 6. mostra il risultato finale tramite alert
         
         let score = 0
-        let risposta_1 = prompt("Qual'è la capitale dell'Italia? ")
+        let risposta_1 = prompt("Qual è la capitale dell'Italia? ")
         if (risposta_1.toLowerCase() === "roma") {
+            score = score + 1
+        }
+        else {
+            score = score + 0
+        }
+
+        let risposta_2 = prompt("Qual è il capoluogo della Campania?")
+        if (risposta_2.toLowerCase() === "napoli") {
             score = score + 1
         }
         else {
